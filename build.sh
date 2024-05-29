@@ -30,7 +30,7 @@ shopt -s nullglob
 
 # load version info
 # shellcheck source=./version.sh
-. version.sh
+. ./version.sh
 
 target="$1"
 arch="$2"
